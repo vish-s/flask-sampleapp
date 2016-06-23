@@ -1,0 +1,26 @@
+<html>
+
+<style>
+   .background-color{
+   background-color: grey;
+   font-align: center;
+   color: red;
+   }
+
+
+</style>
+<title>Upload</title>
+
+<body>
+   <div>
+      <h1 class="background-color">Upload Portal</h1>
+
+   </div>
+      <form action = "http://localhost:5000/uploader_new" method = "POST"
+         enctype = "multipart/form-data">
+         <input type = "file" placeholder="file_name" name = "file" />
+         <input type = "submit"/>
+      </form>
+
+   </body>
+</html>
